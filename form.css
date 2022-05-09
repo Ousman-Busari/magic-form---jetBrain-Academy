@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  /* background: #3f826d; */
+}
+
+nav {
+  height: 4rem;
+  background: #545e75;
+  display: flex;
+  place-items: center;
+}
+.navlinks-container {
+  width: 90vw;
+  max-width: 680px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.navlinks-container a {
+  display: block;
+  text-decoration: none;
+  color: wheat;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+  margin-right: 1.5rem;
+}
+
+.form-container {
+  background: #3f826d;
+}
+
+form {
+  font-size: 1.25rem;
+  width: 90%;
+  max-width: 680px;
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+label {
+  padding-left: 0.5rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+input {
+  width: 100%;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+#submit-button {
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  border: transparent;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+  display: block;
+  background: darkgreen;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.submit-history-card {
+  background: white;
+  font-size: 1.05rem;
+  width: 90%;
+  max-width: 680px;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.delete-button {
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  border: transparent;
+  margin: auto;
+  margin-top: 0.5rem;
+  text-align: center;
+  display: block;
+  background: darkred;
+  color: white;
+  letter-spacing: 1px;
+}
